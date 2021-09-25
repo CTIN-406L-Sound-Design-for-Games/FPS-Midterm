@@ -60,7 +60,9 @@ public class Weapon : MonoBehaviour
     public AnimationClip FireAnimationClip;
     public AnimationClip ReloadAnimationClip;
 
-    [Header("Audio Clips")]
+    [Header("Audio Clips")] 
+    public SingleSoundSO fireAudioSO;
+    public SingleSoundSO reloadAudioSO;
     public AudioClip FireAudioClip;
     public AudioClip ReloadAudioClip;
     
@@ -117,7 +119,11 @@ public class Weapon : MonoBehaviour
         m_Animator = GetComponentInChildren<Animator>();
         m_Source = GetComponentInChildren<AudioSource>();
         m_ClipContent = clipSize;
-
+        FireAudioClip = fireAudioSO.myAudioClip;
+        if(reloadAudioSO)
+            ReloadAudioClip = reloadAudioSO.myAudioClip;
+        if (fireAudioSO.audioMixerGroup)
+            m_Source.outputAudioMixerGroup = fireAudioSO.audioMixerGroup;
         if (PrefabRayTrail != null)
         {
             const int trailPoolSize = 16;
@@ -215,7 +221,10 @@ public class Weapon : MonoBehaviour
         
         m_Animator.SetTrigger("fire");
 
-        m_Source.pitch = Random.Range(0.7f, 1.0f);
+        fireAudioSO.GetParameters();
+        m_Source.volume = fireAudioSO.volume;
+        m_Source.pitch = fireAudioSO.pitch;
+        
         m_Source.PlayOneShot(FireAudioClip);
         
         CameraShaker.Instance.Shake(0.2f, 0.05f * advancedSettings.screenShakeMultiplier);
@@ -320,7 +329,9 @@ public class Weapon : MonoBehaviour
 
         if (ReloadAudioClip != null)
         {
-            m_Source.pitch = Random.Range(0.7f, 1.0f);
+            reloadAudioSO.GetParameters();
+            m_Source.volume = reloadAudioSO.volume;
+            m_Source.pitch = reloadAudioSO.pitch;
             m_Source.PlayOneShot(ReloadAudioClip);
         }
 
@@ -493,7 +504,9 @@ public class WeaponEditor : Editor
    SerializedProperty m_EndPointProp; 
    SerializedProperty m_AdvancedSettingsProp;
    SerializedProperty m_FireAnimationClipProp;
-   SerializedProperty m_ReloadAnimationClipProp;
+   SerializedProperty m_ReloadAnimationClipProp; 
+   SerializedProperty fireSO;
+   SerializedProperty reloadSO;
    SerializedProperty m_FireAudioClipProp;
    SerializedProperty m_ReloadAudioClipProp;
    SerializedProperty m_PrefabRayTrailProp;
@@ -515,6 +528,8 @@ public class WeaponEditor : Editor
        m_AdvancedSettingsProp = serializedObject.FindProperty("advancedSettings");
        m_FireAnimationClipProp = serializedObject.FindProperty("FireAnimationClip");
        m_ReloadAnimationClipProp = serializedObject.FindProperty("ReloadAnimationClip");
+       fireSO = serializedObject.FindProperty("fireAudioSO");
+       reloadSO = serializedObject.FindProperty("reloadAudioSO");
        m_FireAudioClipProp = serializedObject.FindProperty("FireAudioClip");
        m_ReloadAudioClipProp = serializedObject.FindProperty("ReloadAudioClip");
        m_PrefabRayTrailProp = serializedObject.FindProperty("PrefabRayTrail");
@@ -544,6 +559,8 @@ public class WeaponEditor : Editor
         EditorGUILayout.PropertyField(m_AdvancedSettingsProp, new GUIContent("Advance Settings"), true);
         EditorGUILayout.PropertyField(m_FireAnimationClipProp);
         EditorGUILayout.PropertyField(m_ReloadAnimationClipProp);
+        EditorGUILayout.PropertyField(fireSO);
+        EditorGUILayout.PropertyField(reloadSO);
         EditorGUILayout.PropertyField(m_FireAudioClipProp);
         EditorGUILayout.PropertyField(m_ReloadAudioClipProp);
 

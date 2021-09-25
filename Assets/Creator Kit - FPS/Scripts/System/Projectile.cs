@@ -10,7 +10,8 @@ public class Projectile : MonoBehaviour
     public float TimeToDestroyed = 4.0f;
     public float ReachRadius = 5.0f;
     public float damage = 10.0f;
-    public AudioClip DestroyedSound;
+    public SingleSoundSO explosionSO;
+    [HideInInspector]public AudioClip DestroyedSound;
     
     //TODO : maybe pool that somewhere to not have to create one for each projectile.
     public GameObject PrefabOnDestruction;
@@ -23,6 +24,7 @@ public class Projectile : MonoBehaviour
     {
         PoolSystem.Instance.InitPool(PrefabOnDestruction, 4);
         m_Rigidbody = GetComponent<Rigidbody>();
+        DestroyedSound = explosionSO.myAudioClip;
     }
 
     public void Launch(Weapon launcher, Vector3 direction, float force)
@@ -70,7 +72,11 @@ public class Projectile : MonoBehaviour
         var source = WorldAudioPool.GetWorldSFXSource();
 
         source.transform.position = position;
-        source.pitch = Random.Range(0.8f, 1.1f);
+        explosionSO.GetParameters();
+        source.volume = explosionSO.volume;
+        source.pitch = explosionSO.pitch;
+        if (explosionSO.audioMixerGroup)
+            source.outputAudioMixerGroup = explosionSO.audioMixerGroup;
         source.PlayOneShot(DestroyedSound);
     }
 

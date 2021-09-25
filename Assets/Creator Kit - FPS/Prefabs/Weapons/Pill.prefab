@@ -93,6 +93,8 @@ MonoBehaviour:
     screenShakeMultiplier: 1
   FireAnimationClip: {fileID: 7400000, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
   ReloadAnimationClip: {fileID: 7400000, guid: a6c840a53e370b24283ca137fe609958, type: 2}
+  fireAudioSO: {fileID: 11400000, guid: 53137018290034764909b0c139cd53d2, type: 2}
+  reloadAudioSO: {fileID: 0}
   FireAudioClip: {fileID: 8300000, guid: 9839eb252399f0e48ad440d498d738d1, type: 3}
   ReloadAudioClip: {fileID: 0}
   PrefabRayTrail: {fileID: 0}
@@ -450,6 +452,10 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -462,6 +468,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -471,14 +481,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
@@ -494,14 +496,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
+    - target: {fileID: 9500000, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 22100000, guid: 2f782926bce957d4f92df0a898bada35,
         type: 2}
-    - target: {fileID: 9500000, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
-      propertyPath: m_Avatar
-      value: 
-      objectReference: {fileID: 9000000, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
     - target: {fileID: 13700002, guid: 9c5a36cef55a3614a866b354444f08a5, type: 3}
       propertyPath: m_Mesh
       value: 
