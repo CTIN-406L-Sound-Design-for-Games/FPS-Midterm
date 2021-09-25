@@ -2,34 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47518b97-c484-4b6c-998f-85c2e0b30a58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS-Midterm/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS-Midterm/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS-Midterm/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS-Midterm/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS-Midterm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS-Midterm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/UI/AmmoCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/UI/AmmoCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Weapons/GermOBlaster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Weapons/GermOBlaster.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Weapons/Healmatic500.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Weapons/Healmatic500.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Weapons/Pill.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Weapons/Pill.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Weapons/PillProjectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Weapons/PillProjectile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Systems/GameSystem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Systems/GameSystem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Targets/BloodCellTarget.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Targets/BloodCellTarget.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/ApplySound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/ApplySound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/GameSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/GameSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/da/da4980c8aabaabfcc0c308ad8cc0e487.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/da/da4980c8aabaabfcc0c308ad8cc0e487.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/67/677dc6476bcc678de1d2e16fb6e23fef.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/67/677dc6476bcc678de1d2e16fb6e23fef.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler8.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/Assembly-CSharp.dll.hash" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/Assembly-CSharp.dll.hash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/CompilationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/CompilationLog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +45,10 @@
         <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/ScriptableObjectsTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Audio/RandomPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/ApplySound.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/ApplySound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/System/GameSystem.cs" />
       </list>
     </option>
   </component>
@@ -112,7 +101,7 @@
       <workItem from="1632523336681" duration="7540000" />
       <workItem from="1632548231502" duration="18000" />
       <workItem from="1632548255074" duration="1338000" />
-      <workItem from="1632594666734" duration="1473000" />
+      <workItem from="1632594666734" duration="2213000" />
     </task>
     <servers />
   </component>

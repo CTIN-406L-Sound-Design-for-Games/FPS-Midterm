@@ -51,6 +51,7 @@ MonoBehaviour:
   - {fileID: 3659440927640267484, guid: 6e539a2d1020c524baa9744c04b7f085, type: 3}
   - {fileID: 999350144396996000, guid: e89f11f0f3be4554f9832feee06f5cfd, type: 3}
   TargetMissedPenalty: 1
+  endGameSO: {fileID: 11400000, guid: d178ae7fd1aa84ffd9751dc769beddef, type: 2}
   BGMPlayer: {fileID: 2152182227756995375}
   EndGameSound: {fileID: 8300000, guid: 7090bedbe4e6dce46b5b02436f2d0e4a, type: 3}
 --- !u!1 &2152182227756995373

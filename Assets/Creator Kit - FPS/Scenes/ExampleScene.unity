@@ -2882,7 +2882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e8fa36c40c467198ab318eaa509df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundObject: {fileID: 0}
+  soundObject: {fileID: 11400000, guid: 7c0d155242d044703bd5d383d2a519c2, type: 2}
 --- !u!4 &747635990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5895921109282496624, guid: ec691380843541646a7f18b7c7384272,

@@ -16,6 +16,9 @@ public class ApplySound : MonoBehaviour
 
     private void Start()
     {
+        soundObject.GetParameters();
+        _AudioSource.pitch = soundObject.pitch;
+        _AudioSource.volume = soundObject.volume;
         _AudioSource.clip = soundObject.myAudioClip;
         _AudioSource.outputAudioMixerGroup = soundObject.audioMixerGroup;
     }

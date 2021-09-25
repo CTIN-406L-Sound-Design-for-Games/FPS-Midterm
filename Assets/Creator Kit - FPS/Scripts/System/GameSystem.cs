@@ -17,8 +17,9 @@ public class GameSystem : MonoBehaviour
     
     public GameObject[] StartPrefabs;
     public float TargetMissedPenalty = 1.0f;
+    public SingleSoundSO endGameSO;
     public AudioSource BGMPlayer;
-    public AudioClip EndGameSound;
+    [HideInInspector]public AudioClip EndGameSound;
     
     public float RunTime => m_Timer;
     public int TargetCount => m_TargetCount;
@@ -46,6 +47,7 @@ public class GameSystem : MonoBehaviour
 
     void Start()
     {
+        EndGameSound = endGameSO.myAudioClip;
         WorldAudioPool.Init();
         
         RetrieveTargetsCount();

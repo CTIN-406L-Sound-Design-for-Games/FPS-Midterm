@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7141581792777274958}
   - component: {fileID: 1794190175530118467}
+  - component: {fileID: 5954604230018039764}
   m_Layer: 10
   m_Name: IdlePlayer
   m_TagString: Untagged
@@ -128,6 +129,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5954604230018039764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481966949328625300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e9e8fa36c40c467198ab318eaa509df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundObject: {fileID: 11400000, guid: 7626f6b2446b140c1afd1a6de455078f, type: 2}
 --- !u!1 &2742523207603312984
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +155,7 @@ GameObject:
   - component: {fileID: 613060378875714941}
   - component: {fileID: 6689394087353256158}
   m_Layer: 10
-  m_Name: BloodCell
+  m_Name: BloodCellTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -352,15 +366,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4462cad2dd2455143b83d6d5d5fe7dd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Clips:
-  - {fileID: 8300000, guid: 44893a68cd8f54e47b539f656aa69a1c, type: 3}
-  - {fileID: 8300000, guid: d1cba0b0d650a254fbb2096940806370, type: 3}
-  - {fileID: 8300000, guid: c71e8a7fdb3821a40ae48dc78f8402ff, type: 3}
-  - {fileID: 8300000, guid: e4038fae85905eb419579a740d987740, type: 3}
-  - {fileID: 8300000, guid: 2e340fff8cb186f4e847fb83ef9ebc0e, type: 3}
-  - {fileID: 8300000, guid: ee15b63e583c60546af761072d0c6d17, type: 3}
   PitchMin: 0.8
   PitchMax: 1.1
+  soundObject: {fileID: 11400000, guid: f141306401883497a92fe8931750a84a, type: 2}
 --- !u!1001 &8605128913963509447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -371,6 +379,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
       propertyPath: m_Name
       value: BloodCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -385,6 +397,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -394,14 +410,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
