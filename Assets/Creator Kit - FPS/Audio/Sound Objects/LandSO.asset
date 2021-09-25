@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb9faecb331054f94a24570a5f70372c, type: 3}
+  m_Name: LandSO
+  m_EditorClassIdentifier: 
+  myAudioClip: {fileID: 8300000, guid: 80b8397262d56df49828a3b530021dba, type: 3}
+  audioMixerGroup: {fileID: 0}
+  spatialBlend: 0
+  Volume:
+    minValue: 0.8972973
+    maxValue: 1
+  Pitch:
+    minValue: 1.1459459
+    maxValue: 3
+  volume: 0.92936957
+  pitch: 2.2766824
+  spatialBlendVal: 1

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08777e7e79ae5442490b040505f79a4e, type: 3}
+  m_Name: FootstepsSO
+  m_EditorClassIdentifier: 
+  myAudioClips:
+  - {fileID: 8300000, guid: 17fafb003acbf6d46b10d28bcfa80650, type: 3}
+  - {fileID: 8300000, guid: 69cabefbc1ad3fb4b8892b5314ffe4e8, type: 3}
+  - {fileID: 8300000, guid: 0bc8c6ec3fc9d40489c2b46a81e75ea6, type: 3}
+  - {fileID: 8300000, guid: b7c3823868aad77448423a5dffacbc2b, type: 3}
+  - {fileID: 8300000, guid: 9293593a23bcc74459f4038689a7f70a, type: 3}
+  audioMixerGroup: {fileID: 0}
+  spatialBlend: 0
+  Volume:
+    minValue: 0.7081081
+    maxValue: 1
+  Pitch:
+    minValue: 0.76756763
+    maxValue: 3
+  volume: 0.8
+  pitch: 1
+  spatialBlendVal: 1

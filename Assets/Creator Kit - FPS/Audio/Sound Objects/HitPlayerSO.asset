@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08777e7e79ae5442490b040505f79a4e, type: 3}
+  m_Name: HitPlayerSO
+  m_EditorClassIdentifier: 
+  myAudioClips:
+  - {fileID: 8300000, guid: 44893a68cd8f54e47b539f656aa69a1c, type: 3}
+  - {fileID: 8300000, guid: d1cba0b0d650a254fbb2096940806370, type: 3}
+  - {fileID: 8300000, guid: c71e8a7fdb3821a40ae48dc78f8402ff, type: 3}
+  - {fileID: 8300000, guid: 0658f8bf7eaf7d544ab89899ae0361ab, type: 3}
+  - {fileID: 8300000, guid: 608c2a305cfe8564fb03dff149415d61, type: 3}
+  - {fileID: 8300000, guid: ad956d9da7f6b664493795b4a536dabb, type: 3}
+  audioMixerGroup: {fileID: 0}
+  spatialBlend: 0
+  Volume:
+    minValue: 0.77837837
+    maxValue: 1
+  Pitch:
+    minValue: 0.9567567
+    maxValue: 1.8918922
+  volume: 0.8
+  pitch: 1
+  spatialBlendVal: 1

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Creator Kit - FPS" t="Include">
+          <e p="Art" t="Include">
+            <e p="Font" t="Include">
+              <e p="OFL.txt" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="Acid.shader" t="Include" />
+              <e p="Brain.shader" t="Include" />
+              <e p="BubbleBurst.shader" t="Include" />
+              <e p="Fleisch.shader" t="Include" />
+              <e p="LiquidContent.shader" t="Include" />
+              <e p="MapShader.shader" t="Include" />
+              <e p="StandardCutout.shader" t="Include" />
+              <e p="StandardFleisch.shader" t="Include" />
+              <e p="StandardFleischDisolve.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Audio" t="Include">
+              <e p="RandomPlayer.cs" t="Include" />
+              <e p="UIAudioPlayer.cs" t="Include" />
+              <e p="WorldAudioPool.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="CreateSceneMenu.cs" t="Include" />
+              <e p="GradientTextureEditor.cs" t="Include" />
+              <e p="HideSkybox.cs" t="Include" />
+            </e>
+            <e p="Effects" t="Include">
+              <e p="CameraShaker.cs" t="Include" />
+              <e p="ImpactManager.cs" t="Include" />
+              <e p="LiquidAmmoDisplay.cs" t="Include" />
+              <e p="LiquidContainer.cs" t="Include" />
+              <e p="TextAmmoDisplay.cs" t="Include" />
+            </e>
+            <e p="GameDatabase.cs" t="Include" />
+            <e p="GradientTexture.cs" t="Include" />
+            <e p="Helpers.cs" t="Include" />
+            <e p="KeyLockSystem" t="Include">
+              <e p="Key.cs" t="Include" />
+              <e p="Keychain.cs" t="Include" />
+              <e p="Lock.cs" t="Include" />
+            </e>
+            <e p="LevelLayout" t="Include">
+              <e p="LevelLayout.cs" t="Include" />
+              <e p="LevelRoom.cs" t="Include" />
+              <e p="LevelRoomGroup.cs" t="Include" />
+            </e>
+            <e p="Minimap" t="Include">
+              <e p="MinimapElement.cs" t="Include" />
+              <e p="MinimapSystem.cs" t="Include" />
+            </e>
+            <e p="Scriptable Objects" t="Include">
+              <e p="ApplySound.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="AudioEventEditor.cs" t="Include" />
+                <e p="RangedFloatDrawer.cs" t="Include" />
+                <e p="SingleAudioEventEditor.cs" t="Include" />
+              </e>
+              <e p="MinMaxRangeAttribute.cs" t="Include" />
+              <e p="RangedFloat.cs" t="Include" />
+              <e p="ScriptableObjectsTracker.cs" t="Include" />
+              <e p="SingleSoundSO.cs" t="Include" />
+              <e p="SoundManager.cs" t="Include" />
+              <e p="SoundSO.cs" t="Include" />
+            </e>
+            <e p="System" t="Include">
+              <e p="AmmoBox.cs" t="Include" />
+              <e p="Controller.cs" t="Include" />
+              <e p="EndCheckpoint.cs" t="Include" />
+              <e p="GameSystem.cs" t="Include" />
+              <e p="PoolSystem.cs" t="Include" />
+              <e p="Projectile.cs" t="Include" />
+              <e p="StartCheckpoint.cs" t="Include" />
+              <e p="Target.cs" t="Include" />
+              <e p="TargetSpawner.cs" t="Include" />
+              <e p="Weapon.cs" t="Include" />
+              <e p="WeaponAnimationEventHandler.cs" t="Include" />
+            </e>
+            <e p="TriggerActionsSystem" t="Include">
+              <e p="DissolveAction.cs" t="Include" />
+              <e p="EnableObjectAction.cs" t="Include" />
+              <e p="GameAction.cs" t="Include" />
+              <e p="MovingAction.cs" t="Include" />
+              <e p="TargetChecker.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="FinalScoreUI.cs" t="Include" />
+              <e p="FullscreenMap.cs" t="Include" />
+              <e p="GameSystemInfo.cs" t="Include" />
+              <e p="LevelSelectionUI.cs" t="Include" />
+              <e p="MinimapUI.cs" t="Include" />
+              <e p="PauseMenu.cs" t="Include" />
+              <e p="RestartLevel.cs" t="Include" />
+              <e p="WeaponInfoUI.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="CreatorKitFPS_Third-PartyNotice.txt" t="Include" />
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="FPS-Midterm.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/Bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_FPS-Midterm.-1916956279.00" t="ExcludeRecursive" />
+  </component>
+</project>
