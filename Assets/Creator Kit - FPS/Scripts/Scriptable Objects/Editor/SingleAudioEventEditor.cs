@@ -6,7 +6,7 @@ namespace CTIN_406L_Starter_Pack.Scriptable_Objects.Audio.Editor
     [CustomEditor(typeof(SingleSoundSO), true)]
     public class SingleAudioEventEditor : UnityEditor.Editor
     {
-        string gameobjectName = "-> Sound Object Preview <-";
+        string gameobjectName = "-> Single Sound Object Preview <-";
         [SerializeField] private AudioSource _play;
 
 
@@ -35,7 +35,7 @@ namespace CTIN_406L_Starter_Pack.Scriptable_Objects.Audio.Editor
             if (GUILayout.Button("Play"))
             {
                 ((SingleSoundSO) target).Play(_play);
-                _play.name = "-> "+ SoundSO.nowPlaying + " <-";
+                _play.name = "-> "+ SingleSoundSO.nowPlaying + " <-";
             }
             if (GUILayout.Button("Stop"))
             {
