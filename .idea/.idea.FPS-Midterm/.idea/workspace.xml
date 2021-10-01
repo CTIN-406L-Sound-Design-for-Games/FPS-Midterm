@@ -21,46 +21,32 @@
   <component name="ChangeListManager">
     <list default="true" id="47518b97-c484-4b6c-998f-85c2e0b30a58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS-Midterm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS-Midterm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/HitPlayerSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/HitPlayerSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/IdlePlayerSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/IdlePlayerSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/InsideAmbience.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/InsideAmbience.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/MachineGunReloadSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/MachineGunReloadSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/MachineGunShootSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/MachineGunShootSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/PistolReloadSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/PistolReloadSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/PistolShootSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/PistolShootSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/RedCellHitPlayerSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/RedCellHitPlayerSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/RoomBrainSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/RoomBrainSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/RoomHeartSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/RoomHeartSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/RoomStomachSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Audio/Sound Objects/RoomStomachSO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Rooms/BrainRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Rooms/BrainRoom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Rooms/HeartRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Rooms/HeartRoom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Rooms/StomachRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Rooms/StomachRoom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Targets/BloodCellTarget.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Targets/BloodCellTarget.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Targets/GermSlimeTarget.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Targets/GermSlimeTarget.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scenes/ExampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scenes/ExampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Audio/RandomPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Audio/RandomPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/ApplySound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/ApplySound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/Editor/AudioEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/Editor/AudioEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/Editor/SingleAudioEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/Editor/SingleAudioEventEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Door and Key/FatBLob.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Door and Key/FatBLob.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Systems/ImpactManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Prefabs/Systems/ImpactManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Effects/ImpactManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Effects/ImpactManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/TriggerActionsSystem/DissolveAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/TriggerActionsSystem/DissolveAction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/da/da4980c8aabaabfcc0c308ad8cc0e487.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/da/da4980c8aabaabfcc0c308ad8cc0e487.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/54/54900b8f955220f51ddc7993937f7a9a.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/54/54900b8f955220f51ddc7993937f7a9a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/59/59e8ff02328724e80217e269cdf4c6db.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/59/59e8ff02328724e80217e269cdf4c6db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/94/946d3c78d86756f4e4686cad98f19145.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/94/946d3c78d86756f4e4686cad98f19145.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/96/96945fb6db6b646be0f603deb0978555.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/96/96945fb6db6b646be0f603deb0978555.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/a6/a60df8a0102f2f42c9ee46e12edd995e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/a6/a60df8a0102f2f42c9ee46e12edd995e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/24/24b183924112018a521f7bf40bfd16a6.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/24/24b183924112018a521f7bf40bfd16a6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/84/84301b87948a87a39b5c9aa9db527c3f.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/84/84301b87948a87a39b5c9aa9db527c3f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/67/677dc6476bcc678de1d2e16fb6e23fef.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/67/677dc6476bcc678de1d2e16fb6e23fef.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler15.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler15.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler6.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/Assembly-CSharp.dll.hash" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/Assembly-CSharp.dll.hash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/CompilationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/CompilationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +81,8 @@
         <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Audio/RandomPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/Editor/SingleAudioEventEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Scriptable Objects/Editor/AudioEventEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/Effects/ImpactManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Creator Kit - FPS/Scripts/TriggerActionsSystem/DissolveAction.cs" />
       </list>
     </option>
   </component>
@@ -151,7 +139,7 @@
       <workItem from="1633111346497" duration="2051000" />
       <workItem from="1633116448764" duration="227000" />
       <workItem from="1633119598741" duration="114000" />
-      <workItem from="1633120334008" duration="2675000" />
+      <workItem from="1633120334008" duration="4632000" />
     </task>
     <servers />
   </component>

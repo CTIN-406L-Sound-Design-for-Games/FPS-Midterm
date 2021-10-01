@@ -7,6 +7,8 @@ public class DissolveAction : GameAction
 {
     public float DissolveEffectTime = 2;
     public AnimationCurve FadeIn;
+    public SingleSoundSO dissolveSO;
+    public AudioSource audioSource;
 
     public GameAction[] FinishedAction;
     
@@ -59,7 +61,20 @@ public class DissolveAction : GameAction
     
     public override void Activated()
     {
+        PlayDissolveSound();
         enabled = true;
         m_ParticleSystem.Play();
+    }
+
+    private void PlayDissolveSound()
+    {
+        if (!audioSource.isPlaying)
+        {
+            audioSource.clip = dissolveSO.myAudioClip;
+            dissolveSO.GetParameters();
+            audioSource.volume = Random.Range(dissolveSO.setVolume.x, dissolveSO.setVolume.y);
+            audioSource.pitch = Random.Range(dissolveSO.setPitch.x, dissolveSO.setPitch.y);;
+            audioSource.Play();
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 /// <summary>
 /// This handle impacts on object from the raycast of the weapon. It will create a pool of the prefabs for performance
@@ -20,12 +21,15 @@ public class ImpactManager : MonoBehaviour
     public ImpactSetting DefaultSettings;
     public ImpactSetting[] ImpactSettings;
 
+    public SingleSoundSO impactSO;
+
     Dictionary<Material, ImpactSetting> m_SettingLookup = new Dictionary<Material,ImpactSetting>();
     
     // Start is called before the first frame update
     void Awake()
     {
         Instance = this;
+        
     }
 
     void Start()
@@ -43,6 +47,7 @@ public class ImpactManager : MonoBehaviour
         ImpactSetting setting = null;
         if (material == null || !m_SettingLookup.TryGetValue(material, out setting))
         {
+            DefaultSettings.ImpactSound = impactSO.myAudioClip;
             setting = DefaultSettings;
         }
         
@@ -56,7 +61,9 @@ public class ImpactManager : MonoBehaviour
         var source = WorldAudioPool.GetWorldSFXSource();
 
         source.transform.position = position;
-        source.pitch = Random.Range(0.8f, 1.1f);
+        impactSO.GetParameters();
+        source.volume = Random.Range(impactSO.setVolume.x, impactSO.setVolume.y);
+        source.pitch = Random.Range(impactSO.setPitch.x, impactSO.setPitch.y);;
         source.PlayOneShot(setting.ImpactSound);
     }
 }
