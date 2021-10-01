@@ -2883,6 +2883,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundObject: {fileID: 11400000, guid: 7c0d155242d044703bd5d383d2a519c2, type: 2}
+  PlayOnAwake: 1
+  Loop: 1
 --- !u!4 &747635990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5895921109282496624, guid: ec691380843541646a7f18b7c7384272,
@@ -2955,6 +2957,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828893934257111920, guid: d26356071d092484f9b68a18937abd19,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5114858704194217969, guid: d26356071d092484f9b68a18937abd19,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7617619359068766130, guid: d26356071d092484f9b68a18937abd19,
         type: 3}
@@ -3168,6 +3180,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
+    - target: {fileID: 3111486599921094683, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ca000ead671ebe449deb210e0a19be8, type: 3}
 --- !u!1001 &760221305
@@ -3319,13 +3336,12 @@ AudioSource:
   m_GameObject: {fileID: 815908052}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: d145ef7ec5c612648aba1716a7f53ac9,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3434,6 +3450,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundObject: {fileID: 11400000, guid: 7626f6b2446b140c1afd1a6de455078f, type: 2}
+  PlayOnAwake: 1
+  Loop: 1
 --- !u!1 &828137237 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1848484723603866383, guid: 4502ea73c64fc234dba9db5ece178cb2,
@@ -4700,6 +4718,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1747249419273624170, guid: b5efbb971dfd08c458d6074096aacb15,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4661222395204988022, guid: b5efbb971dfd08c458d6074096aacb15,
         type: 3}
       propertyPath: m_Name
@@ -5188,8 +5211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4462cad2dd2455143b83d6d5d5fe7dd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PitchMin: 0.8
-  PitchMax: 1.1
   soundObject: {fileID: 11400000, guid: 64e06209269f84ace97562f98b9b7081, type: 2}
 --- !u!82 &1293402503
 AudioSource:
@@ -6047,11 +6068,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2512953057398773005, guid: 547e1bb5b288bc14187ab3bdf87891f6,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7162997211635013435, guid: 547e1bb5b288bc14187ab3bdf87891f6,
         type: 3}
       propertyPath: m_RootOrder
@@ -7829,6 +7845,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152182227756995375, guid: f7a29801ef1207442893876b7560238a,
+        type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152182227756995375, guid: f7a29801ef1207442893876b7560238a,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152182227756995375, guid: f7a29801ef1207442893876b7560238a,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152182227756995375, guid: f7a29801ef1207442893876b7560238a,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7a29801ef1207442893876b7560238a, type: 3}

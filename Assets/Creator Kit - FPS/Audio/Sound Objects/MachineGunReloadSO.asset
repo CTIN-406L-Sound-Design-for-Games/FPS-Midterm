@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: MachineGunReloadSO
   m_EditorClassIdentifier: 
   myAudioClip: {fileID: 8300000, guid: 53b8e7c6ac6cd6d49977438b25dacfc7, type: 3}
-  audioMixerGroup: {fileID: 0}
+  audioMixerGroup: {fileID: 243422288981298744, guid: d145ef7ec5c612648aba1716a7f53ac9,
+    type: 2}
   spatialBlend: 0
-  Volume:
-    minValue: 0.78918916
-    maxValue: 1
-  Pitch:
-    minValue: 1.5243243
-    maxValue: 1.5243243
+  setVolume: {x: 0.8, y: 0.8}
+  setPitch: {x: 1, y: 1}
   volume: 0.8
   pitch: 1
   spatialBlendVal: 0

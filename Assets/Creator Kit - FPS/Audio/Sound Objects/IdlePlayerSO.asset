@@ -13,14 +13,10 @@ MonoBehaviour:
   m_Name: IdlePlayerSO
   m_EditorClassIdentifier: 
   myAudioClip: {fileID: 8300000, guid: e8ed11207c86d614cbf486a93a782359, type: 3}
-  audioMixerGroup: {fileID: 0}
+  audioMixerGroup: {fileID: 24300002, guid: d145ef7ec5c612648aba1716a7f53ac9, type: 2}
   spatialBlend: 0
-  Volume:
-    minValue: 0.6216217
-    maxValue: 1
-  Pitch:
-    minValue: 0.5405407
-    maxValue: 1.7513512
+  setVolume: {x: 0.8, y: 0.8}
+  setPitch: {x: 1, y: 1}
   volume: 0.8
   pitch: 1
-  spatialBlendVal: 0
+  spatialBlendVal: 1

@@ -19,7 +19,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0658f8bf7eaf7d544ab89899ae0361ab, type: 3}
   - {fileID: 8300000, guid: 608c2a305cfe8564fb03dff149415d61, type: 3}
   - {fileID: 8300000, guid: ad956d9da7f6b664493795b4a536dabb, type: 3}
-  audioMixerGroup: {fileID: 0}
+  audioMixerGroup: {fileID: 243422288981298744, guid: d145ef7ec5c612648aba1716a7f53ac9,
+    type: 2}
   spatialBlend: 0
   setVolume: {x: 0.8, y: 0.8}
   setPitch: {x: 1, y: 1}

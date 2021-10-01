@@ -21,7 +21,7 @@ namespace CTIN_406L_Starter_Pack.Scriptable_Objects.Audio.Editor
 
 		public void OnDisable()
 		{
-			if (_play.gameObject != null)
+			if (_play.gameObject)
 			{
 				DestroyImmediate(_play.gameObject);
 			}

@@ -10,8 +10,8 @@ public class RandomPlayer : MonoBehaviour
 {
    
     private AudioClip[] Clips;
-    public float PitchMin = 1.0f;
-    public float PitchMax = 1.0f;
+    private float PitchMin = 1.0f;
+    private float PitchMax = 1.0f;
     [SerializeField]private SoundSO soundObject;
 
     public AudioSource source => m_Source;
