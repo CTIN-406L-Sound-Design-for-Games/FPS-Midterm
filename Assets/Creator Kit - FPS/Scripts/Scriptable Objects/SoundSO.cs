@@ -23,8 +23,7 @@ public class SoundSO : ScriptableObject
 
     [HideInInspector]
     public float volume, pitch,spatialBlendVal;
-
-    private int length;
+    
 
     public void GetParameters()
     {
@@ -48,7 +47,6 @@ public class SoundSO : ScriptableObject
     {
         if (source)
         {
-            ResetList();
             if (myAudioClips.Length == 0) return;
              
             if (audioMixerGroup)
@@ -81,22 +79,11 @@ public class SoundSO : ScriptableObject
     {
         if (source)
         {
-            if (clipIndex == myAudioClips.Length)
+            if (clipIndex >= myAudioClips.Length)
             {
                 clipIndex = 0;
             }
-
-            if (clipIndex >= length)
-            {
-                clipIndex = 0;
-                source.clip = myAudioClips[clipIndex];
-                
-            }
-            else 
-            {
-                source.clip = myAudioClips[clipIndex];
-            }
-            
+            source.clip = myAudioClips[clipIndex];
             clipIndex++;
             nowPlaying = source.clip.name;
             source.volume =  Random.Range(setVolume.x, setVolume.y);
@@ -114,9 +101,5 @@ public class SoundSO : ScriptableObject
             source.pitch =  Random.Range(setPitch.x, setPitch.y);
         }
     }
-
-    private void ResetList()
-    {
-        length = myAudioClips.Length;
-    }
+    
 }
