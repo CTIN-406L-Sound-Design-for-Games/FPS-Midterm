@@ -20,12 +20,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9293593a23bcc74459f4038689a7f70a, type: 3}
   audioMixerGroup: {fileID: 0}
   spatialBlend: 0
-  Volume:
-    minValue: 0.7081081
-    maxValue: 1
-  Pitch:
-    minValue: 0.76756763
-    maxValue: 3
+  setVolume: {x: 0.8, y: 0.8}
+  setPitch: {x: 1, y: 1}
   volume: 0.8
   pitch: 1
   spatialBlendVal: 1

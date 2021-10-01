@@ -71,6 +71,7 @@
      <Compile Include="Assets\Creator Kit - FPS\Scripts\System\PoolSystem.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\KeyLockSystem\Lock.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\EnableObjectAction.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\MinMaxSlider.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\WorldAudioPool.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\UIAudioPlayer.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\MinMaxRangeAttribute.cs" />
@@ -103,7 +104,6 @@
      <Compile Include="Assets\Creator Kit - FPS\Scripts\LevelLayout\LevelLayout.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\System\StartCheckpoint.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\ApplySound.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\MinMaxSlider.cs" />
      <None Include="Assets\Creator Kit - FPS\Art\Shaders\Acid.shader" />
      <None Include="Assets\Creator Kit - FPS\Art\Shaders\Brain.shader" />
      <None Include="Assets\Creator Kit - FPS\Art\Shaders\Fleisch.shader" />

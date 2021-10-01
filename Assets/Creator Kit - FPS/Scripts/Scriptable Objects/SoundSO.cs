@@ -47,11 +47,18 @@ public class SoundSO : ScriptableObject
         if (source)
         {
             if (myAudioClips.Length == 0) return;
+             
             if (audioMixerGroup)
                 source.outputAudioMixerGroup = audioMixerGroup;
 
             CheckSpatialBlend(source);
-            PlaySequential(source);
+            if(myAudioClips.Length == 1)
+                PlayOne(source);
+            else
+            {
+                PlaySequential(source);
+            }
+            
             source.Play();
             
         }
@@ -77,6 +84,17 @@ public class SoundSO : ScriptableObject
 
             source.clip = myAudioClips[clipIndex];
             clipIndex++;
+            nowPlaying = source.clip.name;
+            source.volume =  Random.Range(setVolume.x, setVolume.y);
+            source.pitch =  Random.Range(setPitch.x, setPitch.y);
+        }
+    }
+    
+    private void PlayOne(AudioSource source)
+    {
+        if (source)
+        {
+            source.clip = myAudioClips[0];
             nowPlaying = source.clip.name;
             source.volume =  Random.Range(setVolume.x, setVolume.y);
             source.pitch =  Random.Range(setPitch.x, setPitch.y);

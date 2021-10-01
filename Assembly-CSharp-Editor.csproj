@@ -57,9 +57,9 @@
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Editor\GradientTextureEditor.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\Editor\RangedFloatDrawer.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\Editor\MinMaxSliderEditor.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Editor\HideSkybox.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\Editor\AudioEventEditor.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\Editor\MinMaxSliderEditor.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
