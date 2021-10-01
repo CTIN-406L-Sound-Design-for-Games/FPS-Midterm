@@ -15,12 +15,8 @@ MonoBehaviour:
   myAudioClip: {fileID: 8300000, guid: 80b8397262d56df49828a3b530021dba, type: 3}
   audioMixerGroup: {fileID: 0}
   spatialBlend: 0
-  Volume:
-    minValue: 0.8972973
-    maxValue: 1
-  Pitch:
-    minValue: 1.1459459
-    maxValue: 3
-  volume: 0.92936957
-  pitch: 2.2766824
+  setVolume: {x: 0.8, y: 0.8}
+  setPitch: {x: 1, y: 1}
+  volume: 0.8
+  pitch: 1
   spatialBlendVal: 1

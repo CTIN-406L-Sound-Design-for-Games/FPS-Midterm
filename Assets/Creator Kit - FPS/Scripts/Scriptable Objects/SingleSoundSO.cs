@@ -12,16 +12,28 @@ public class SingleSoundSO : ScriptableObject
     public AudioMixerGroup audioMixerGroup;
     
     public SpatialBlendType spatialBlend;
-    [MinMaxRange(0.2f, 1f)] public RangedFloat Volume;
-    [MinMaxRange(0.2f, 3f)] public RangedFloat Pitch;
+    
+    [Header("Volume and Pitch Range")]
+    
+    [MinMaxSlider(0.2f,1.0f)]
+    public Vector2 setVolume = new Vector2(0.8f,0.8f);
+    [MinMaxSlider(0.2f,3.0f)]
+    public Vector2 setPitch = new Vector2(1.0f,1.0f);
+    // public float minVolume = 0.8f;
+    // public float maxVolume = 0.8f;
+    // public float minPitch = 1.0f;
+    // public float maxPitch = 1.0f;
+    
+    // [MinMaxRange(0.2f, 1f)] public RangedFloat Volume;
+    // [MinMaxRange(0.2f, 3f)] public RangedFloat Pitch;
 
     [HideInInspector]
     public float volume, pitch,spatialBlendVal;
 
     public void GetParameters()
     {
-        volume = Random.Range(Volume.minValue, Volume.maxValue);
-        pitch = Random.Range(Pitch.minValue, Pitch.maxValue);
+        volume = Random.Range(setVolume.x, setVolume.y);
+        pitch = Random.Range(setPitch.x, setPitch.y);
         CheckSpatialBlend();
     }
 
@@ -45,6 +57,12 @@ public class SingleSoundSO : ScriptableObject
             
         }
     }
+
+    public void Reset()
+    {
+    setVolume = new Vector2(0.8f,0.8f);
+    setPitch = new Vector2(1.0f,1.0f);
+    }
     private void CheckSpatialBlend(AudioSource source)
     {
         if(source)
@@ -62,8 +80,8 @@ public class SingleSoundSO : ScriptableObject
             
             source.clip = myAudioClip;
             nowPlaying = source.clip.name;
-            source.volume = Random.Range(Volume.minValue, Volume.maxValue);
-            source.pitch = Random.Range(Pitch.minValue, Pitch.maxValue);
+            source.volume =  Random.Range(setVolume.x, setVolume.y);
+            source.pitch =  Random.Range(setPitch.x, setPitch.y);
         }
     }
 }

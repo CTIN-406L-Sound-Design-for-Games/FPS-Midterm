@@ -16,11 +16,11 @@ MonoBehaviour:
   audioMixerGroup: {fileID: 0}
   spatialBlend: 0
   Volume:
-    minValue: 0.96756756
+    minValue: 0.75247765
     maxValue: 0.96756756
   Pitch:
-    minValue: 1.0972973
-    maxValue: 1.4378378
-  volume: 0.8
-  pitch: 1
-  spatialBlendVal: 0
+    minValue: 2.3770823
+    maxValue: 2.7176228
+  volume: 0.88509417
+  pitch: 2.5698533
+  spatialBlendVal: 1

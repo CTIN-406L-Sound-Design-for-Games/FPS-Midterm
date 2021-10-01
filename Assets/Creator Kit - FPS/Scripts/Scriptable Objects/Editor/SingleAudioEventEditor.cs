@@ -41,9 +41,14 @@ namespace CTIN_406L_Starter_Pack.Scriptable_Objects.Audio.Editor
             {
                 _play.Stop();
             }
+            
 
             EditorGUI.EndDisabledGroup();
             DrawDefaultInspector();
+            if (GUILayout.Button("Reset Vol & Pitch"))
+            {
+                ((SingleSoundSO) target).Reset();
+            }
         }
     }
 }

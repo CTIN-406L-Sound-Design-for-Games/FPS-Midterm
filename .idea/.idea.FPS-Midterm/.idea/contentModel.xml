@@ -62,10 +62,12 @@
               <e p="ApplySound.cs" t="Include" />
               <e p="Editor" t="Include">
                 <e p="AudioEventEditor.cs" t="Include" />
+                <e p="MinMaxSliderEditor.cs" t="Include" />
                 <e p="RangedFloatDrawer.cs" t="Include" />
                 <e p="SingleAudioEventEditor.cs" t="Include" />
               </e>
               <e p="MinMaxRangeAttribute.cs" t="Include" />
+              <e p="MinMaxSlider.cs" t="Include" />
               <e p="RangedFloat.cs" t="Include" />
               <e p="ScriptableObjectsTracker.cs" t="Include" />
               <e p="SingleSoundSO.cs" t="Include" />

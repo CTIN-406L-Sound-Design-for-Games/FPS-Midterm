@@ -52,57 +52,58 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\AmmoBox.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\GameAction.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\TargetChecker.cs" />
-     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\FullscreenMap.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Minimap\MinimapElement.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\GameSystem.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Effects\LiquidContainer.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\StartCheckpoint.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\EndCheckpoint.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\KeyLockSystem\Keychain.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Effects\CameraShaker.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Helpers.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Effects\ImpactManager.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\KeyLockSystem\Key.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\PoolSystem.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\Projectile.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\WorldAudioPool.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\SoundManager.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Effects\TextAmmoDisplay.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\KeyLockSystem\Lock.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\WeaponAnimationEventHandler.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\PauseMenu.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\LevelSelectionUI.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\Weapon.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\LevelLayout\LevelRoomGroup.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\GameSystemInfo.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\TargetSpawner.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Effects\LiquidAmmoDisplay.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Minimap\MinimapSystem.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\MovingAction.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\Target.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\AmmoBox.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\SingleSoundSO.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\WeaponInfoUI.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\MinimapUI.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\LevelLayout\LevelLayout.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\GameDatabase.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\Controller.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\RestartLevel.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\UIAudioPlayer.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\LevelLayout\LevelRoom.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Helpers.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\Target.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\GradientTexture.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Effects\LiquidContainer.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\PauseMenu.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Minimap\MinimapSystem.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Effects\CameraShaker.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\LevelLayout\LevelRoomGroup.cs" />
+     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\Projectile.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\PoolSystem.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\KeyLockSystem\Lock.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\EnableObjectAction.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\FinalScoreUI.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\RandomPlayer.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\DissolveAction.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\SoundManager.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\SoundSO.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\ApplySound.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\WorldAudioPool.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\UIAudioPlayer.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\MinMaxRangeAttribute.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\RangedFloat.cs" />
-     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\SingleSoundSO.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\TargetChecker.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Minimap\MinimapElement.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\KeyLockSystem\Keychain.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\EndCheckpoint.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\KeyLockSystem\Key.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\GameSystemInfo.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Effects\LiquidAmmoDisplay.cs" />
      <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\ScriptableObjectsTracker.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\DissolveAction.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\FullscreenMap.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\GameDatabase.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\RandomPlayer.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\GameAction.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\SoundSO.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\TriggerActionsSystem\MovingAction.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\Controller.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\LevelLayout\LevelRoom.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\RangedFloat.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Effects\ImpactManager.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\WeaponAnimationEventHandler.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\TargetSpawner.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\FinalScoreUI.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\LevelSelectionUI.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\RestartLevel.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\GameSystem.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\Weapon.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\LevelLayout\LevelLayout.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\System\StartCheckpoint.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\ApplySound.cs" />
+     <Compile Include="Assets\Creator Kit - FPS\Scripts\Scriptable Objects\MinMaxSlider.cs" />
      <None Include="Assets\Creator Kit - FPS\Art\Shaders\Acid.shader" />
      <None Include="Assets\Creator Kit - FPS\Art\Shaders\Brain.shader" />
      <None Include="Assets\Creator Kit - FPS\Art\Shaders\Fleisch.shader" />
@@ -336,9 +337,6 @@
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
@@ -347,6 +345,9 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -696,20 +697,32 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -723,50 +736,38 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Monetization">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements.Editor">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="Analytics">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Analytics.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>/Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

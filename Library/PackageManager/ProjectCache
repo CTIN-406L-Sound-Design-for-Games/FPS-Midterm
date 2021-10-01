@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637681196510000000
+      ticks: 637687096110000000
     m_Hash: 260421731
   m_LockFileStatus:
     m_FilePath: /Users/Ghazal/Documents/USC/Courses/CTIN_406L-Sound Design/FPS-Midterm/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637681196520000000
+      ticks: 637687096110000000
     m_Hash: 3408702447
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -433,6 +433,8 @@ m_PackageAssets:
         - 1.9.0
         - 1.10.2
         - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -448,6 +450,7 @@ m_PackageAssets:
         - 1.6.0
         - 1.8.0
         - 1.10.2
+        - 1.12.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
